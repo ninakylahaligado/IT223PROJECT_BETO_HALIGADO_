@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+}
+
+.body{
+    font-family: 'Castoro Titling', cursive;
+}
+
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+header h1{
+    padding: 8px 0 8px 0;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(233, 179, 131);
+}
+
+.nav{
+    padding: 20px 0 20px 0 ;
+    background-color: #F4E8DE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    height: 20px;
+    margin-left: 30px;
+}
+
+.nav-menu{
+    margin-right: 240px;
+}
+
+.nav-menu a{
+    color: black;
+    margin: 0 32px;
+}
+
+.nav-menu a:hover{
+    color: brown;   
+    transition: .3s;
+   
+}
+.titles{    
+    color: black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    margin: 10px 0 20px 0;
+}
+
+main{
+    align-items: center;
+    display: flex;
+ 
+    justify-content: center;
+    background-color: #FFF3E9;
+}
+.aboutpic img{
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.row{
+    color: white;
+    background-color: #2D1B15;
+    padding: 60px;
+}
+.aboutpic img{
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.column p:hover{
+    color:rgb(233, 179, 131);
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.text{  
+    text-align: justify;
+    margin: 20px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 18px;
+    overflow: hidden;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+

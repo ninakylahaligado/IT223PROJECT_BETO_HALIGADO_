@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+}
+
+.body{
+    font-family: 'Castoro Titling', cursive;
+}
+
+/* Header style */
+
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+header h1{
+    padding: 8px 0 8px 0;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(233, 179, 131);
+}
+
+.nav{
+    padding: 20px 0 20px 0 ;
+    background-color: #F4E8DE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    height: 20px;
+    margin-left: 30px;
+}
+
+.nav-menu{
+    margin-right: 240px;
+}
+
+.nav-menu a{
+    color: black;
+    padding: 32px;
+}
+
+.nav-menu a:hover{
+    color: brown;
+    transition: .3s;
+   
+}
+
+
+/* main style */
+
+main{
+    position: relative;
+    top: 80px; 
+}
+
+/* Home page style */
+
+.home-page{
+    position: relative;
+}
+
+.home-page img{
+   height: 500px;
+   width: 100%;
+   opacity: 0.9;
+}
+
+.home-page-text{
+    font-weight: 500;
+    font-size: 115px;
+    position: absolute;
+    bottom: 220px;
+    right: 120px;
+    color: white;
+    text-shadow: 4px 4px 3px #000000
+}
+
+/* products style */
+
+
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F4E8DE;
+}
+
+.prodcont-1{
+    margin: 10px;
+    width: 1000px;
+    height: 400px;
+    opacity: 0.8;
+    background: url(001.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prodcont-2{
+    margin: 10px;
+    width: 1000px;
+    height: 400px;
+    opacity: 0.8;
+    background: url(002.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prodcont-3{
+    margin: 10px;
+    width: 1000px;
+    height: 400px;
+    opacity: 0.8;
+    background: url(003.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.content{
+    color: white;
+    padding: 5rem 9% 2rem;
+    font-size: 30px;
+}
+
+.content h3{
+    padding-bottom: 25px;
+}
+
+.content a{
+    color: #000000;
+    font-size: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content a:hover {
+    background-color: #000000;
+    color: white;
+    transition: .2s;
+}
+
+/* goals style */
+
+.goals{
+    min-width: 100%;
+    height: 600px;
+    background: url(004.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    opacity: 0.9;
+    text-shadow: rgb(0, 0, 0) 4px 4px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.goals-info h1{
+    font-weight: 600;
+    padding-top: 200px;
+    margin: 0 65px 0 65px;
+}
+
+
+.goals-info p{
+    padding-top: 30px;
+    margin: 0 150px 0 150px;
+}
+.row{
+    position: relative;
+    top: 80px   ;
+    bottom: 10px;
+    color: white;
+    background-color: #2D1B15;
+    padding: 60px;
+    
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.column p{
+    margin-top: 10px;
+}
+.column p:hover{
+    color:rgb(233, 179, 131);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.column img:hover{
+    transform: scale(1.5);
+    transition: .2s;
+    cursor: pointer;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
