@@ -54,18 +54,63 @@ header h1{
     color: brown;
     transition: .3s;
    
-}
-  
-.main{
-    margin: 0px;
-    background-color: #FFF3E9;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    padding: 600px;
 
 }
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
+button{
+    border-radius: 5px;
+    margin: 10px 0px;
+    height: 40px;
+    width: 100px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding: 150px 0px 10px 0px;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    list-style: none;
+}
+main li {
+    border: 2px solid #ccc;
+    padding:0px 30px;
+}
+
+main li:hover {
+    border-color: black;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+main p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
 .row{
     position: relative;
     top: 80px   ;
