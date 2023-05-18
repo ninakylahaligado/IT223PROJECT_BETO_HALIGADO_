@@ -53,11 +53,7 @@ header h1{
 .nav-menu a:hover{
     color: brown;
     transition: .3s;
-   
 }
-
-
-/* main style */
 
 main{
     position: relative;
@@ -69,12 +65,11 @@ main{
 .home-page{
     position: relative;
 }
-
 .home-page img{
-   height: 500px;
-   width: 100%;
-   opacity: 0.9;
-}
+    position: relative;
+    top: -550px;
+    opacity: 0.8;
+}    
 
 .home-page-text{
     font-weight: 500;
@@ -93,14 +88,14 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #F4E8DE;
+    background-color: #FFF3E9;
 }
 
 .prodcont-1{
     margin: 10px;
     width: 1000px;
     height: 500px;
-    opacity: 0.;
+    opacity: 0.9;
     background: url(001.png);
     background-size: cover;
     background-repeat: no-repeat;
