@@ -53,6 +53,11 @@ header h1{
     transition: .3s;
    
 }
+.nav .icons a{
+    font-size: 1.3rem;
+    color: #000;
+    margin-left: 1rem;
+}
 .titles{    
     color: black; 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -129,5 +134,136 @@ main{
     clear: both;
 }
 
+@media only screen and (max-width: 1024px){
+    main{
+        flex-direction: column;
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+
+    .aboutpic{
+        margin: 0;
+    }
+
+    .aboutpic img{
+        margin: 0;
+        margin-bottom: 700px;
+    }
+
+}
+/*Media Queries*/
+@media screen and (max-width:1312px){ 
+    .home-page{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1218px) {
+    #menu-bar{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: -120%;
+        width: 100%;
+        background-color: rgb(233, 179, 131);
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+    }
+    .navbar a{
+        font-size: 2rem;
+        background: #F4E8DE;
+        border: .1rem solid #000;
+        border-radius: .5rem;
+        padding: 1rem;
+        margin: 1rem;
+        display: block;
+        text-align: center;
+    }
+    .nav .navbar.active{
+        transition: all .2s linear;
+        left: 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+
+    .nav {
+        padding: 1rem 3%;
+    }
+
+    .nav-menu {
+        margin-right: 160px;
+    }
+
+    .nav-menu a {
+        margin: 0 1rem;
+    }
+
+  
+}
+
+@media screen and (max-width: 830px){
+    .products{
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .prodcont{
+        width: 98.5vw;
+        height: 450px;
+        opacity: 0.9;
+    }
+    .row .column{
+        display: block;
+        margin-bottom: 40px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page-text {
+        font-size: 80px;
+    }
+
+    .home-page{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-page-text {
+        font-size: 50px;
+    }
+    .home-page{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home-page{
+        width: 100%;
+    }
+    #menu-bar{
+        font-size: 10px;
+    }
+    .nav .logo img{
+        height: 13px;
+    }
+    .nav .icons a{
+        font-size: 15px;
+        margin: 0.3rem;
+    }
+}
     
 

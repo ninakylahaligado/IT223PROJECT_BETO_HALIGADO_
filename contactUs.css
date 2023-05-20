@@ -55,6 +55,12 @@ header h1{
     transition: .3s;
    
 }
+.icons a:hover{
+    color: brown;
+    transform: scale(1.5);
+    transition: .2s;
+    cursor: pointer;
+}
 .body h5{
     color: black;
     text-decoration: underline;
@@ -81,7 +87,7 @@ header h1{
     padding-left: 400px;
     padding-right: 350px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
 }
 input[type=text], select {
