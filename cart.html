@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="img/icon.png">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <title>Fine Overhand | Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <div class="shopping">
+                <img src="shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <div class="title" id="title">Products</div>
+
+        <div class="list"></div>
+        <div class="payment" id="payment"></div>
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut " >
+            <a  class="total" id="total" onclick="startTimeout()" onmouseover="changeVal()" onmouseout="defaultVal()">0</a>
+            
+            <div class="closeShopping">Close</div>
+        </div>
+        
+    </div>
+
+
+    
+   
+    <script src="addtocart.js"></script>
+</body>
+</html>
